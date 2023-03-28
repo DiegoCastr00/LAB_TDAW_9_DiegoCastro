@@ -46,6 +46,7 @@ main {
     max-width: 25%;
     font-size: 1rem;
     padding-top: 0.2em;
+    margin-left: 2%;
 }
 
 .izq__info {
@@ -178,7 +179,7 @@ td {
 
 .der {
     max-width: 25%;
-
+    margin-right: 2%;
 }
 
 .der__cambios {
@@ -195,7 +196,7 @@ td {
 }
 
 .der__cambios-titulo h3 {
-    padding: 1em;
+    padding: 1em; 
 }
 
 .der__cambios-contenido {
@@ -203,20 +204,19 @@ td {
     display: flex;
     flex-direction: column;
     justify-content: center;
-
 }
 
 .der__cambios-contenido ul {
     list-style-type: none;
     font-size: 1em;
     font-weight: 500;
-
 }
 .der__cambios-contenido span{
     float:inline-start;
     margin: 0 1em;
     font-size: 2em;
-    clear:left
+    clear:left;
+    color: grey;
 }
 .der__cambios-contenido ul p {
     padding: 1em;
@@ -257,9 +257,10 @@ td {
  .der__vendidos-contenido li {
     float: left;
     clear:left;
+    
  }
  .der__vendidos-contenido li p {
     display: block;
-    padding: 2em;
- 
+    padding: 2em 1em 1em 4em;
+    margin: 0;
  }
